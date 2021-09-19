@@ -35,5 +35,10 @@ public class Main {
         String s = "anagram";
         String t = "nagaram";
         System.out.println("Question 5: "+Question_5.isAnagram(s,t));
+
+
+        //Question 6 Testcase
+        int[] evenoddnums = new int[]{3,1,2,4};
+        System.out.println("Question 6: "+Arrays.toString(Question_6.evenFirst(evenoddnums)));
     }
 }
