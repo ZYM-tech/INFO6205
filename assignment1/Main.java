@@ -17,7 +17,6 @@ public class Main {
         meetings.add(new Question_2.Interval(7,10));
         meetings.add(new Question_2.Interval(2,4));
         meetings.add(new Question_2.Interval(4,7));//sry no breaks lol
-
         Question_2.Allmeeting(meetings);
         System.out.println("Question 2: "+Question_2.Allmeeting(meetings));
 
@@ -30,7 +29,11 @@ public class Main {
         //Question 4 Testcase
         int[] nums_sorted = new int[]{-7,-3,2,3,11};
         System.out.println("Question 4: "+Arrays.toString(Question_4.sqnums(nums_sorted)));
+
+
+        //Question 5 Testcase
+        String s = "anagram";
+        String t = "nagaram";
+        System.out.println("Question 5: "+Question_5.isAnagram(s,t));
     }
-
-
 }
