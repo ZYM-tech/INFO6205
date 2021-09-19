@@ -20,6 +20,11 @@ public class Main {
 
         Question_2.Allmeeting(meetings);
         System.out.println("Question 2: "+Question_2.Allmeeting(meetings));
+
+
+        //Question 3 Test
+        int[] nums_2n = new int[]{6,2,6,5,1,2};
+        System.out.println("Question 3: "+Question_3.maxsum(nums_2n));
     }
 
 
