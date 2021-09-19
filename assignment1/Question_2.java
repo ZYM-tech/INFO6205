@@ -32,7 +32,7 @@ public class Question_2 {
         for (int i = 1; i < meetings.size(); i++) {
             Interval rear = meetings.get(i-1);
             Interval current = meetings.get(i);
-            if (rear.end >= current.start || rear.start == current.start) {
+            if (rear.end > current.start || rear.start == current.start) {
                 return false;
             }
         }

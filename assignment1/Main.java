@@ -16,6 +16,7 @@ public class Main {
         //add a meeting time, must be int
         meetings.add(new Question_2.Interval(7,10));
         meetings.add(new Question_2.Interval(2,4));
+        meetings.add(new Question_2.Interval(4,7));//sry no breaks lol
 
         Question_2.Allmeeting(meetings);
         System.out.println("Question 2: "+Question_2.Allmeeting(meetings));
