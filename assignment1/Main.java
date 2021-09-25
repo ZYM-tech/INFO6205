@@ -4,6 +4,8 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args){
+
+        //region Assignment 1
         //Question 1 Testcase
         int[] nums = new int[]{2,0,2,1,1,0};
         int[] sorted_nums  = Question_1.sortColor(nums);
@@ -31,13 +33,15 @@ public class Main {
 
 
         //Question 5 Testcase
-        String s = "anagram";
-        String t = "nagaram";
+        String s = "a";
+        String t = "b";
         System.out.println("Question 5: "+Question_5.isAnagram(s,t));
 
 
         //Question 6 Testcase
         int[] evenoddnums = new int[]{3,1,2,4};
         System.out.println("Question 6: "+Arrays.toString(Question_6.evenFirst(evenoddnums)));
+        //endregion
+
     }
 }
