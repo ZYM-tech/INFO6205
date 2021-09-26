@@ -45,9 +45,13 @@ public class Main {
 */
         //Assignment 2
         //Question 1 Testcase
-        int[] nums ={2,7,11,15};
-        int target = 9;
+        int[] nums ={3,3};
+        int target = 6;
         System.out.println(Arrays.toString(Question1.twoSum(nums,target)));
+
+        //Question 2 Testcase
+        int[][] meetings =  {{7,10},{2,4}};
+        System.out.println(Question2.minRooms(meetings));
 
     }
 }
