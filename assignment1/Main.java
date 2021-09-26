@@ -67,5 +67,14 @@ public class Main {
         int targetQ5 = 8;
         System.out.println(Arrays.toString(Question5.searchRange(numsQ5,targetQ5)));
 
+        //Question 6 Testcase
+        int[][] grid = {{3,2},{1,0}};
+        System.out.println(Question6.countNegatives(grid));
+
+        //Question 7 Testcase
+        //Question 8 Testcase
+        //Question 9 Testcase
+
+
     }
 }
