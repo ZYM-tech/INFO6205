@@ -58,5 +58,9 @@ public class Main {
         int[] nums2 = {2,2};
         System.out.println(Arrays.toString(Question3.intersection(nums1,nums2)));
 
+        //Question 4 Testcase
+        int[] numsQ4 = {1,2};
+        System.out.println(Question4.majorityElement(numsQ4));
+
     }
 }
