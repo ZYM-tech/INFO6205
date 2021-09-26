@@ -62,5 +62,10 @@ public class Main {
         int[] numsQ4 = {1,2};
         System.out.println(Question4.majorityElement(numsQ4));
 
+        //Question 5 Testcase
+        int[] numsQ5 = {5,7,7,8,8,10};
+        int targetQ5 = 8;
+        System.out.println(Arrays.toString(Question5.searchRange(numsQ5,targetQ5)));
+
     }
 }
