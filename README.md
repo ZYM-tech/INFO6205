@@ -1,3 +1,3 @@
 # INFO6205 Assignments
 
-main class is in assignment 1 package
+The main class for all is in assignment 1 package
