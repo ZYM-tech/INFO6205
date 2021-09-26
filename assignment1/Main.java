@@ -53,5 +53,10 @@ public class Main {
         int[][] meetings =  {{7,10},{2,4}};
         System.out.println(Question2.minRooms(meetings));
 
+        //Question 3 Testcase
+        int[] nums1 = {1,2,2,1};
+        int[] nums2 = {2,2};
+        System.out.println(Arrays.toString(Question3.intersection(nums1,nums2)));
+
     }
 }
