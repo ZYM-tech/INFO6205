@@ -10,6 +10,7 @@ public class Question8 {
             if (cnt <= mid) low = mid + 1;
             else high = mid - 1;
         }
+
         return low;
     }
 }

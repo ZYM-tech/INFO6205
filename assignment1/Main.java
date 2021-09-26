@@ -79,6 +79,7 @@ public class Main {
         //Question 8 Testcase
         int[] numsQ8 = {3,1,3,4,2};
         System.out.println(Question8.findDuplicate(numsQ8));
+
         //Question 9 Testcase
 
 
