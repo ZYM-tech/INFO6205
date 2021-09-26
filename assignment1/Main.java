@@ -4,7 +4,7 @@ import java.util.Arrays;
 public class Main {
 
     public static void main(String[] args){
-
+/*
         //region Assignment 1
         //Question 1 Testcase
         int[] nums = new int[]{2,0,2,1,1,0};
@@ -42,6 +42,12 @@ public class Main {
         int[] evenoddnums = new int[]{3,1,2,4};
         System.out.println("Question 6: "+Arrays.toString(Question_6.evenFirst(evenoddnums)));
         //endregion
+*/
+        //Assignment 2
+        //Question 1 Testcase
+        int[] nums ={2,7,11,15};
+        int target = 9;
+        System.out.println(Arrays.toString(Question1.twoSum(nums,target)));
 
     }
 }
