@@ -1,3 +1,4 @@
+import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -72,6 +73,12 @@ public class Main {
         System.out.println(Question6.countNegatives(grid));
 
         //Question 7 Testcase
+        int[] numsQ7 = {1,2,3,1};
+        System.out.println(Question7.findPeakElement(numsQ7));
+
+
+
+
         //Question 8 Testcase
         //Question 9 Testcase
 
