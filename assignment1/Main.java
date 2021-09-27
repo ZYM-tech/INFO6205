@@ -81,6 +81,9 @@ public class Main {
         System.out.println(Question8.findDuplicate(numsQ8));
 
         //Question 9 Testcase
+        int[] arr = {2,3,4,7,11};
+        int k = 5;
+        System.out.println(Question9.findKthPositive(arr,k));
 
     }
 }
