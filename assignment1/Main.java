@@ -62,7 +62,7 @@ public class Main {
         System.out.println(Arrays.toString(Question3.intersection(nums1,nums2)));
 
         //Question 4 Testcase
-        int[] numsQ4 = {1,2};
+        int[] numsQ4 = {2,3,3};
         System.out.println(Question4.majorityElement(numsQ4));
 
         //Question 5 Testcase
