@@ -1,6 +1,8 @@
 import javax.sound.midi.Soundbank;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
 
@@ -46,8 +48,9 @@ public class Main {
 */
 
 
-        //Assignment 2
+        //region Assignment 2
         //Question 1 Testcase
+        /*
         int[] nums ={3,3};
         int target = 6;
         System.out.println(Arrays.toString(Question1.twoSum(nums,target)));
@@ -86,6 +89,40 @@ public class Main {
         int[] arr = {2,3,4,7,11};
         int k = 5;
         System.out.println(Question9.findKthPositive(arr,k));
+*/
+        //endregion
 
+        //Assignment 3
+        //Question 1
+        HW3_Q1.ListNode nodeHeadA = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode node2 = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode node3 = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode node4 = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode node5 = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode nodeHeadB = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode nodeB2 = new HW3_Q1.ListNode();
+        HW3_Q1.ListNode nodeB3 = new HW3_Q1.ListNode();
+        //listA = [4,1] + listC
+        nodeHeadA.setVal(4);
+        node2.setVal(1);
+        nodeHeadA.next = node2;
+        node2.next = node3;
+
+        //listB = [5,6,1] + listC
+        nodeHeadB.setVal(5);
+        nodeB2.setVal(6);
+        nodeB3.setVal(1);
+        nodeHeadB.next = nodeB2;
+        nodeB2.next = nodeB3;
+        nodeB3.next = node3;
+
+        // listC
+        node3.setVal(8);
+        node4.setVal(4);
+        node5.setVal(5);// node5 is tail in this testcase
+        node3.next = node4;
+        node4.next = node5;
+
+        HW3_Q1.getIntersection(nodeHeadA, nodeHeadB);
     }
 }

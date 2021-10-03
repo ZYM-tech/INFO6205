@@ -12,6 +12,7 @@ public class Question4 {
         List<Integer> result = new ArrayList<>();
         for(int i = 0;i<nums.length;i++){
             int end = getLastPosition(nums,i,nums.length-1,nums[i]);
+            System.out.println(end);
             if((end - i+1) > (n/3)){
                 result.add(nums[i]);
                 i = end;
