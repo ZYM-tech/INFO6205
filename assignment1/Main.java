@@ -124,5 +124,21 @@ public class Main {
         node4.next = node5;
 
         HW3_Q1.getIntersection(nodeHeadA, nodeHeadB);
+
+        //Question 2
+        HW3_Q2.ListNode node_1 = new HW3_Q2.ListNode();
+        HW3_Q2.ListNode node_2 = new HW3_Q2.ListNode();
+        HW3_Q2.ListNode node_3 = new HW3_Q2.ListNode();
+        HW3_Q2.ListNode node_4 = new HW3_Q2.ListNode();
+        int val = 7;
+        node_1.val = 7;
+        node_2.val = 1;
+        node_3.val = 7;
+        node_4.val = 6;
+        node_1.next = node_2;
+        node_2.next = node_3;
+        node_3.next = node_4;
+        System.out.println(HW3_Q2.removeItems(node_1,val).val);
+
     }
 }
