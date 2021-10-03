@@ -1,4 +1,5 @@
 public class Question5 {
+    //Time: O(log(n))  Space: O(n)
     public static int[] searchRange(int[] A, int target) {
         int start = firstGreaterEqual(A, target);
         if (start == A.length || A[start] != target) {

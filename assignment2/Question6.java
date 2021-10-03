@@ -1,4 +1,5 @@
 public class Question6 {
+    //Time: O(nlog(n))  Space: O(1)
     public static int countNegatives(int[][] grid) {
         int res = 0;
         for(int i = 0; i < grid.length; ++i) {

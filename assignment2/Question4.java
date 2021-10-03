@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
+//Time: O(nlog(n))  Space: O(n)
 public class Question4 {
     public static List<Integer> majorityElement(int[] nums) {
         if(nums.length == 0 || nums == null){

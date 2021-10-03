@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+//Time: O(nlog(n)) Space: O(1)
 public class Question2 {
     public static int minRooms(int[][] meetings){
         int[] start = new int[meetings.length];

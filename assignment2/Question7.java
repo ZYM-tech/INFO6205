@@ -1,4 +1,5 @@
 public class Question7 {
+    //Time: O(log(n))  Space:  O(1)
     public static int findPeakElement(int[] num) {
         int n = num.length;
         if (n <= 1) return 0;

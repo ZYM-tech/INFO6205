@@ -1,4 +1,5 @@
 public class Question8 {
+    //Time: O(nlog(n))  Space: O(1)
     public static int findDuplicate(int[] nums) {
         int low = 1, high = nums.length - 1;
         while (low <= high) {

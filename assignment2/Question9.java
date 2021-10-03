@@ -1,4 +1,5 @@
 public class Question9 {
+    //Time: O(log(n)) Space: O(1)
     public static int findKthPositive(int[] arr, int k) {
         int left = 0, right = arr.length - 1;
         while (left <= right) {

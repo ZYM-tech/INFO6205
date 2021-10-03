@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+//Time: O(n)  Space: O(1)
 public class Question1 {
     public static int[] twoSum(int[] nums, int target){
         HashMap<Integer, Integer> arr = new HashMap<>();

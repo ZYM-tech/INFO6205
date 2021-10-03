@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
+//Time: O(nlog(n))  Space: O(n)
 public class Question3 {
     public static int[] intersection(int[] nums1, int[] nums2) {
         Set<Integer> set = new HashSet<>();
