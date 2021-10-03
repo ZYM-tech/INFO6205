@@ -10,7 +10,6 @@ public class HW3_Q5 {
 
     public ListNode nodemiddle(ListNode head) {
         ListNode slowone = head, fastone = head;
-
         while (fastone != null && fastone.next != null) {
             slowone = slowone.next;
             fastone = fastone.next.next;
