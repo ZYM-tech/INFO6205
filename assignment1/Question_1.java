@@ -1,4 +1,5 @@
 public class Question_1 {
+    //Time: O(n) Space: O(1)
     private static void swap(int[] arr, int a,int b){
         if(a<0||a>arr.length-1||b<0||b>arr.length-1||arr==null){
             return;

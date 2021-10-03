@@ -1,4 +1,5 @@
 public class Question_6 {
+    //Time: O(n)  Space: O(1)
     public static int[] evenFirst(int[] nums){
      int len = nums.length;
      int left = 0;          //left pointer

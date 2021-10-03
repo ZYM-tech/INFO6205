@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Question_4 {
+    //Time: O(n)  Space: O(n)
 //use left and right pointers, compare the absolute value of left and right, bigger ones add to result array first.
     public static int[] sqnums(int[] nums){
         int i = 0;//left pointer

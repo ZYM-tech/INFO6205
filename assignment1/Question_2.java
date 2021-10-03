@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 import java.util.Comparator;
-
+//Time: O(nlog(n)) Space: O(n)
 public class Question_2 {
 
     //Question 2: define Interval
@@ -39,3 +39,4 @@ public class Question_2 {
         return true;
     }
 }
+

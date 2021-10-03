@@ -1,6 +1,7 @@
 import java.util.Arrays;
 
 public class Question_3 {
+    //Time: O(nlog(n)) Space: O(1)
     public static int maxsum(int[] nums){
         //first, sort nums; second, in each pair of 2 numbers, choose the smaller one, add them all.
         Arrays.sort(nums);
