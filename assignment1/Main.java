@@ -140,5 +140,9 @@ public class Main {
         node_3.next = node_4;
         System.out.println(HW3_Q2.removeItems(node_1,val).val);
 
+
+        //Question 3
+
+
     }
 }
