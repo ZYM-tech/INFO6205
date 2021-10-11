@@ -3,11 +3,11 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
-
+/*
 public class Main {
 
     public static void main(String[] args){
-/*
+
         //region Assignment 1
         //Question 1 Testcase
         int[] nums = new int[]{2,0,2,1,1,0};
@@ -91,7 +91,7 @@ public class Main {
         System.out.println(Question9.findKthPositive(arr,k));
 */
         //endregion
-
+/*
         //Assignment 3
         //Question 1
         HW3_Q1.ListNode nodeHeadA = new HW3_Q1.ListNode();
@@ -139,10 +139,5 @@ public class Main {
         node_2.next = node_3;
         node_3.next = node_4;
         System.out.println(HW3_Q2.removeItems(node_1,val).val);
-
-
-        //Question 3
-
-
     }
-}
+}*/
