@@ -36,7 +36,6 @@ public class HW4_Q4 {
         } else {
             head = prev;
         }
-
         tail.next = cur;
         return head;
     }
