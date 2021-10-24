@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/assignment3" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/assignment4" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/assignment5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/midterm" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="11.0.5" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

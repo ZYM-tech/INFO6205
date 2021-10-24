@@ -11,7 +11,7 @@ public class Main {
         //region Assignment 1
         //Question 1 Testcase
         int[] nums = new int[]{2,0,2,1,1,0};
-        int[] sorted_nums  = Question_1.sortColor(nums);
+        int[] sorted_nums  = Midterm_Q1.sortColor(nums);
         System.out.println("Question 1: "+Arrays.toString(sorted_nums));
 
 
