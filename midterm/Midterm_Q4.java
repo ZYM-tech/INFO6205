@@ -27,10 +27,9 @@ public class Midterm_Q4 {
             ArrayList<Integer> arr = new ArrayList<>();
             for(int s=0;s<count;s++){
                 arr.add(levels.get(i).get(s));
-                //System.out.println(levels.get(i).get(s)+' ');
+                System.out.print(levels.get(i).get(s)+" ");
             }
-
-            System.out.println(Arrays.toString(arr.toArray()));
+            System.out.println();
             count++;
         }
     }
