@@ -24,9 +24,7 @@ public class Midterm_Q4 {
         int count = 1;
         //each level
         for(int i=0; i<size;i++){
-            ArrayList<Integer> arr = new ArrayList<>();
             for(int s=0;s<count;s++){
-                arr.add(levels.get(i).get(s));
                 System.out.print(levels.get(i).get(s)+" ");
             }
             System.out.println();
