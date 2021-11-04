@@ -18,8 +18,7 @@ public class Midterm_Q4 {
 
     //Here is Question 4
     public static void printTree(TreeNode root){
-        List<List<Integer>> levels = new ArrayList<>();
-        levels  = Midterm_Q4.levelOrder(root);
+        List<List<Integer>> levels = Midterm_Q4.levelOrder(root);
         int size = levels.size();
         int count = 1;
         //each level

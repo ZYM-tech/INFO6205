@@ -1,4 +1,5 @@
 public class Midterm_Q1 {
+    //self
     public static int[] movezero(int[] nums){
         if(nums.length == 0){
             return null;
@@ -16,5 +17,4 @@ public class Midterm_Q1 {
         }
         return nums;
     }
-
 }
