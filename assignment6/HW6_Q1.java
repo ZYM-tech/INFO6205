@@ -11,6 +11,7 @@ public class HW6_Q1 {
            this.right = right;
        }
    }
+
    //Time: O(n) Space: O(n)
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         if(root1 == null && root2 == null) return null;
