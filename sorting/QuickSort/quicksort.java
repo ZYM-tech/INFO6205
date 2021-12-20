@@ -1,3 +1,5 @@
+//leetcode 912
+//Time: O(nlogn)
 public class quicksort {
     public static void quicksort(int nums[], int l, int r){
 
